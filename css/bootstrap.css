@@ -705,7 +705,10 @@ progress {
 .blockquote-footer::before {
   content: "— ";
 }
-
+form{
+  padding: 10px;
+  border-radius: 10px;
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -733,7 +736,15 @@ progress {
   font-size: 0.875em;
   color: var(--bs-secondary-color);
 }
-
+h1{
+  border-radius: 10px;
+}
+h2{
+  border-radius: 10px;
+}
+footer{
+  padding: 3px;
+}
 .container,
 .container-fluid,
 .container-xxl,
